@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCV POCT Dashboard Index</title>
+    <style>
+        body { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; color: #333; margin: 0; padding: 40px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 50px; }
+        h1 { color: #2c3e50; margin-bottom: 10px; }
+        p.subtitle { color: #7f8c8d; font-size: 1.2em; }
+        
+        .section { margin-bottom: 60px; }
+        .section-title { font-size: 1.5em; color: #34495e; border-bottom: 2px solid #ecf0f1; padding-bottom: 10px; margin-bottom: 30px; }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; }
+        
+        .card { 
+            background: white; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+            padding: 25px; 
+            text-align: center; 
+            transition: transform 0.2s, box-shadow 0.2s; 
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            box-sizing: border-box;
+        }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .card h3 { margin-top: 0; color: #2980b9; font-size: 1.3em; margin-bottom: 15px; }
+        
+        .btn { 
+            display: inline-block; 
+            padding: 10px 20px; 
+            background-color: #3498db; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 6px; 
+            font-weight: 600; 
+            transition: background-color 0.2s;
+        }
+        .btn:hover { background-color: #2980b9; }
+        .btn-national { background-color: #e67e22; }
+        .btn-national:hover { background-color: #d35400; }
+        
+        footer { text-align: center; color: #95a5a6; margin-top: 80px; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Hepatitis C Point-of-Care Testing Dashboards</h1>
+        <p class="subtitle">Interactive visualization of testing volume, positivity rates, and trends over time.</p>
+    </header>
+
+<div class="section"><div class="section-title">National Overview</div><div class="grid"><div class="card"><h3>national</h3><p>Complete overview of all testing sites across Australia.</p><a href="dashboard_national.html" class="btn btn-national">Open Dashboard</a></div></div></div>
+<div class="section"><div class="section-title">States & Territories</div><div class="grid"><div class="card"><h3>ACT</h3><p>Interactive map and timeline.</p><a href="dashboard_ACT.html" class="btn ">Open Dashboard</a></div>
+<div class="card"><h3>NSW</h3><p>Interactive map and timeline.</p><a href="dashboard_NSW.html" class="btn ">Open Dashboard</a></div>
+<div class="card"><h3>NT</h3><p>Interactive map and timeline.</p><a href="dashboard_NT.html" class="btn ">Open Dashboard</a></div>
+<div class="card"><h3>QLD</h3><p>Interactive map and timeline.</p><a href="dashboard_QLD.html" class="btn ">Open Dashboard</a></div>
+<div class="card"><h3>SA</h3><p>Interactive map and timeline.</p><a href="dashboard_SA.html" class="btn ">Open Dashboard</a></div>
+<div class="card"><h3>TAS</h3><p>Interactive map and timeline.</p><a href="dashboard_TAS.html" class="btn ">Open Dashboard</a></div>
+<div class="card"><h3>VIC</h3><p>Interactive map and timeline.</p><a href="dashboard_VIC.html" class="btn ">Open Dashboard</a></div>
+<div class="card"><h3>WA</h3><p>Interactive map and timeline.</p><a href="dashboard_WA.html" class="btn ">Open Dashboard</a></div></div></div>
+<div class="section"><div class="section-title">Metropolitan Areas</div><div class="grid"><div class="card"><h3>Adelaide</h3><p>Interactive map and timeline.</p><a href="dashboard_metro_Adelaide.html" class="btn ">Open Dashboard</a></div>
+<div class="card"><h3>Brisbane</h3><p>Interactive map and timeline.</p><a href="dashboard_metro_Brisbane.html" class="btn ">Open Dashboard</a></div>
+<div class="card"><h3>Hobart</h3><p>Interactive map and timeline.</p><a href="dashboard_metro_Hobart.html" class="btn ">Open Dashboard</a></div>
+<div class="card"><h3>Hunter Region</h3><p>Interactive map and timeline.</p><a href="dashboard_metro_Hunter_Region.html" class="btn ">Open Dashboard</a></div>
+<div class="card"><h3>Inner Sydney</h3><p>Interactive map and timeline.</p><a href="dashboard_metro_Inner_Sydney.html" class="btn ">Open Dashboard</a></div>
+<div class="card"><h3>Melbourne</h3><p>Interactive map and timeline.</p><a href="dashboard_metro_Melbourne.html" class="btn ">Open Dashboard</a></div>
+<div class="card"><h3>Perth</h3><p>Interactive map and timeline.</p><a href="dashboard_metro_Perth.html" class="btn ">Open Dashboard</a></div>
+<div class="card"><h3>Sydney</h3><p>Interactive map and timeline.</p><a href="dashboard_metro_Sydney.html" class="btn ">Open Dashboard</a></div></div></div>
+
+    <footer>
+        <p>Generated on 2026-02-23</p>
+    </footer>
+</div>
+</body>
+</html>
+

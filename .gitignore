@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Un-ignore this file
+!.gitignore
+
+# Un-ignore the Outputs folder and its contents
+!Outputs/
+!Outputs/**
